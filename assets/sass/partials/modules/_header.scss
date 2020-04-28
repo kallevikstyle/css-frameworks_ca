@@ -1,0 +1,12 @@
+.page-header {
+    background-color: $color-bg-shade;
+    &__logo {
+        @extend %headlines;
+        font-style: italic;
+        color: $color-highlight;
+        &:hover {
+            color: darken($color-highlight, 8%);
+        }
+    }
+
+}

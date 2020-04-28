@@ -11,8 +11,26 @@
 </head>
 <body>
     <!-- Header -->
-    <header class="container-fluid" role="banner">
+    <header class="page-header container-fluid" role="banner">
+        <!-- Main navigation -->
+        <nav class="page-header__nav navbar">
+            <a href="index.html" class="page-header__logo navbar-brand">
+                <span class="d-md-none">YAY</span>
+                <span class="d-none d-md-inline">The YAY Company</span>
+            </a>
+            <!-- Toggle navigation -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#page-navigation" aria-controls="page-navigation" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" aria-hidden="true"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="page-navigation">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">HOME</li>
+                    <li class="nav-item">NEWS</li>
+                    <li class="nav-item">CONTACT</li>
+                </ul>
+            </div>
 
+        </nav>
     </header>
     <!-- Carousel -->
     <div class="container-fluid">
@@ -34,8 +52,8 @@
     <footer class="container-fluid" role="contentinfo">
 
     </footer>
-    
-    <script src="assets/js/jquery-3.5.0.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 </body>

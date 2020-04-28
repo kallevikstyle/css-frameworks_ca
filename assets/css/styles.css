@@ -1,11 +1,12 @@
 @import url("../css/bootstrap.min.css");
+@import url("../css/fontawesome/all.css");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 body {
   font-family: "Lato", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, .page-header__logo {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-weight: 700;
   font-size: 24px;
@@ -26,4 +27,17 @@ h3 {
 
 main, article, header, nav, section, aside, footer {
   display: block;
+}
+
+.page-header {
+  background-color: #EFEFEF;
+}
+
+.page-header__logo {
+  font-style: italic;
+  color: #E82569;
+}
+
+.page-header__logo:hover {
+  color: #ce1656;
 }
