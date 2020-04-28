@@ -1,5 +1,5 @@
 @import url("../css/bootstrap.min.css");
-@import url("../css/fontawesome/all.css");
+@import url("../fontawesome/css/all.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 body {
   font-family: "Lato", "Helvetica", "Arial", sans-serif;
