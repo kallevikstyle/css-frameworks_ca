@@ -1,1 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body {
+    font-family: $font-text;
+    font-size: 16px;
+}
+
+%headlines {
+    font-family: $font-headlines;
+    font-weight: $bold;
+    font-size: 24px;
+}
+h1, h2, h3 {
+    @extend %headlines;
+}
+h2 {
+    font-size: 20px;
+}
+h3 {
+    font-family: $font-text;
+    font-size: 16px;
+}
+.btn {
+    font-size: 13px;
+}
