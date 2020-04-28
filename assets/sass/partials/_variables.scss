@@ -5,6 +5,10 @@ $lato-stack: 'Lato', 'Helvetica', 'Arial', sans-serif;
 $font-headlines: $noto-serif-stack;
 $font-copy: $lato-stack;
 
+$light: 300;
+$regular: 400;
+$bold: 700;
+
 // Colors
 $black: #000;
 $white: #FFF;
@@ -12,8 +16,8 @@ $pink: #E82569;
 $lightgrey: #EFEFEF;
 $darkgrey: #969696;
 
-$color-copy: $black;
+$color-text: $black;
 $color-bg: $white;
 $color-highlight: $pink;
-$color-bg-header: $lightgrey;
-$color-icos: $darkgrey;
+$color-bg-shade: $lightgrey;
+$color-icons: $darkgrey;
