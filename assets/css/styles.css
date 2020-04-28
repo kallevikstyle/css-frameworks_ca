@@ -44,3 +44,20 @@ main, article, header, nav, section, aside, footer {
 .page-header__logo.navbar-brand:hover {
   color: #ce1656;
 }
+
+.page-header__nav .navbar-nav .nav-link {
+  color: #000;
+  font-weight: 300;
+  padding: .2rem 1.2rem;
+}
+
+.page-header__nav .navbar-nav .nav-link.active {
+  background-color: #FFF;
+  border-bottom: 1px solid #000;
+}
+
+.page-header__nav .navbar-toggler {
+  color: #969696;
+  border: none;
+  font-size: 1.8rem;
+}

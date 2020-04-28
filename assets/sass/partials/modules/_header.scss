@@ -9,7 +9,24 @@
                 color: darken($color-highlight, 8%);
             }
         }
-        
+    }
+    &__nav {
+        .navbar-nav .nav-link {
+            color: $color-text;
+            font-weight: $light;
+            padding: .2rem 1.2rem;
+            &.active {
+                background-color: $color-bg;
+                border-bottom: 1px solid $color-text;
+            }
+           
+        }
+        .navbar-toggler {
+            color: $color-icons;
+            border: none;
+            font-size: 1.8rem;
+        }
+    
         
     }
 
