@@ -35,9 +35,12 @@ main, article, header, nav, section, aside, footer {
 
 .page-header__logo {
   font-style: italic;
+}
+
+.page-header__logo.navbar-brand {
   color: #E82569;
 }
 
-.page-header__logo:hover {
+.page-header__logo.navbar-brand:hover {
   color: #ce1656;
 }

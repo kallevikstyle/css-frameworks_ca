@@ -3,10 +3,14 @@
     &__logo {
         @extend %headlines;
         font-style: italic;
-        color: $color-highlight;
-        &:hover {
-            color: darken($color-highlight, 8%);
+        &.navbar-brand {
+            color: $color-highlight;
+            &:hover {
+                color: darken($color-highlight, 8%);
+            }
         }
+        
+        
     }
 
 }
