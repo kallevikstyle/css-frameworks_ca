@@ -98,3 +98,7 @@ main, article, header, nav, section, aside, footer {
 .main-carousel__indicators > li:last-child {
   margin-right: 0;
 }
+
+.introduction {
+  margin-top: 50px;
+}
