@@ -1,3 +1,12 @@
 main, article, header, nav, section, aside, footer {
 	display: block;
 }
+
+// Buttons
+.btn-primary {
+	background-color: $color-highlight;
+	border-color: $color-highlight;
+	&:hover {
+		background-color: darken($color-highlight, 8%);
+	}
+}

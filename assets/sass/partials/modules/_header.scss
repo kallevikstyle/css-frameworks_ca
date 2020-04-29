@@ -3,6 +3,7 @@
     &__logo {
         @extend %headlines;
         font-style: italic;
+        font-size: 22px;
         &.navbar-brand {
             color: $color-highlight;
             &:hover {
@@ -11,13 +12,22 @@
         }
     }
     &__nav {
+        padding-top: 1.4rem;
+        padding-bottom: 1.4rem;
         .navbar-nav .nav-link {
             color: $color-text;
             font-weight: $light;
-            padding: .2rem 1.2rem;
+            text-align: center;
+            padding-left: 1.2rem;
+            padding-right: 1.2rem;
+            &:hover {
+                background-color: lighten($color-bg-shade, 2%);
+                color: inherit;
+            }
             &.active {
                 background-color: $color-bg;
                 border-bottom: 1px solid $color-text;
+                
             }
            
         }

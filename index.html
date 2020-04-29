@@ -11,29 +11,41 @@
 </head>
 <body>
     <!-- Header -->
-    <header class="page-header container-fluid" role="banner">
+    <header class="page-header container-fluid px-0 px-md-3" role="banner">
         <!-- Main navigation -->
-        <nav class="page-header__nav navbar navbar-expand-md navbar-light">
-            <a href="index.html" class="page-header__logo navbar-brand">
-                <span class="d-md-none">YAY</span>
+        <nav class="page-header__nav navbar navbar-expand-md navbar-light px-0" role="navigation">
+            <a href="index.html" class="page-header__logo navbar-brand" role="link" title="YAY">
+                <span class="d-md-none ml-3">YAY</span>
                 <span class="d-none d-md-inline">The YAY Company</span>
             </a>
             <!-- Toggle navigation -->
-            <button class="page-header__nav--toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#page-navigation" aria-controls="page-navigation" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="page-header__nav--toggler navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#page-navigation" aria-controls="page-navigation" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="fas fa-bars" aria-hidden="true"></span>
             </button>
             <div class="collapse navbar-collapse" id="page-navigation">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav ml-md-3 mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                        <a class="nav-link py-3 py-md-2 active" href="index.html" role="link">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item w-100">
+                        <a class="nav-link py-3 py-md-2" href="news.html" role="link">NEWS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">NEWS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">CONTACT</a>
+                        <a class="nav-link py-3 py-md-2" href="contact.html" role="link">CONTACT</a>
                     </li>
                 </ul>
+                <!-- Search field -->
+                <form class="">
+                    <div class="form-group mb-0 row">
+                        <label for="search" class="sr-only">Search</label>
+                        <div class="input-group input-group-sm col-10 col-sm-8 col-md-12 mx-auto">
+                            <input id="search" type="search" class="form-control" placeholder="Search...">
+                            <div class="input-group-append">
+                                <button type="submit" class="btn btn-primary">GO</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
             </div>
 
         </nav>

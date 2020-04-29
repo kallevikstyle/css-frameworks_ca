@@ -29,12 +29,22 @@ main, article, header, nav, section, aside, footer {
   display: block;
 }
 
+.btn-primary {
+  background-color: #E82569;
+  border-color: #E82569;
+}
+
+.btn-primary:hover {
+  background-color: #ce1656;
+}
+
 .page-header {
   background-color: #EFEFEF;
 }
 
 .page-header__logo {
   font-style: italic;
+  font-size: 22px;
 }
 
 .page-header__logo.navbar-brand {
@@ -45,10 +55,22 @@ main, article, header, nav, section, aside, footer {
   color: #ce1656;
 }
 
+.page-header__nav {
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+}
+
 .page-header__nav .navbar-nav .nav-link {
   color: #000;
   font-weight: 300;
-  padding: .2rem 1.2rem;
+  text-align: center;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+
+.page-header__nav .navbar-nav .nav-link:hover {
+  background-color: #f4f4f4;
+  color: inherit;
 }
 
 .page-header__nav .navbar-nav .nav-link.active {
