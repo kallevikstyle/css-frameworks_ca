@@ -83,3 +83,18 @@ main, article, header, nav, section, aside, footer {
   border: none;
   font-size: 1.8rem;
 }
+
+.main-carousel {
+  padding: 0;
+}
+
+.main-carousel__indicators > li {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.main-carousel__indicators > li:last-child {
+  margin-right: 0;
+}
