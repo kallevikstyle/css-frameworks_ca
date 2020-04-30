@@ -102,3 +102,29 @@ main, article, header, nav, section, aside, footer {
 .introduction {
   margin-top: 50px;
 }
+
+.featured-tabs {
+  margin-top: 50px;
+  padding: 0 15px;
+}
+
+.featured-tabs__tabs {
+  border-color: #cccccc;
+  border-bottom-style: none;
+  margin-bottom: -1px;
+  z-index: 1000;
+}
+
+.featured-tabs__tabs .nav-link.active {
+  background-color: #EFEFEF;
+  border-color: #cccccc;
+  border-bottom-style: none;
+}
+
+.featured-tabs__content {
+  padding: 2rem;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  background-color: #EFEFEF;
+}

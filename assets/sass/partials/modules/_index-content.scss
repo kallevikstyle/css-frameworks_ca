@@ -1,3 +1,30 @@
 .introduction {
-    margin-top: 50px;
+    margin-top: $section-spacing;
+}
+
+.featured-tabs {
+    margin-top: $section-spacing;
+    padding: 0 15px;
+    &__tabs {
+        border-color: lighten($color-text, 80%);
+        border-bottom-style: none;
+        margin-bottom: -1px;
+        z-index: 1000;
+        .nav-link {
+
+        }
+        .nav-link.active {
+            background-color: $color-bg-shade;
+            border-color: lighten($color-text, 80%);
+            border-bottom-style: none;
+           
+        }
+    }
+    &__content {
+        padding: 2rem;
+        border: 1px solid lighten($color-text, 80%);
+        border-radius: 5px;
+        border-top-left-radius: 0;
+        background-color: $color-bg-shade;
+    }
 }
