@@ -1,0 +1,22 @@
+.page-footer {
+    margin-top: $section-spacing;
+    background-color: $color-bg-shade;
+    font-size: 13px;
+    &__social {
+        font-size: 2rem;
+        .nav-link {
+            color: $color-icons;
+            &:hover {
+                color: darken($color-icons, 20%);
+                background-color: lighten($color-bg-shade, 2%);
+            }
+        }
+    }
+    &__copyright {
+        color: $color-icons;
+        text-align: center;
+        p {
+            display: inline-block;
+        }
+    }
+}

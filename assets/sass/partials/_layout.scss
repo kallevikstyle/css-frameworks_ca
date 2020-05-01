@@ -10,9 +10,10 @@ main, article, header, nav, section, aside, footer {
 		background-color: darken($color-highlight, 8%);
 	}
 }
- a {
-	//  color: $color-text;
-	 &:hover {
-		//  color: $color-highlight;
-	 }
- }
+a {
+	color: $color-text;
+	&:hover {
+		text-decoration: none;
+		color: $color-highlight;
+	}
+}
