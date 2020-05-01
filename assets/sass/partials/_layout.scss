@@ -2,7 +2,7 @@ main, article, header, nav, section, aside, footer {
 	display: block;
 }
 
-// Buttons
+// Buttons and links
 .btn-primary {
 	background-color: $color-highlight;
 	border-color: $color-highlight;
@@ -10,3 +10,9 @@ main, article, header, nav, section, aside, footer {
 		background-color: darken($color-highlight, 8%);
 	}
 }
+ a {
+	//  color: $color-text;
+	 &:hover {
+		//  color: $color-highlight;
+	 }
+ }

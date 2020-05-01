@@ -11,13 +11,16 @@
         margin-bottom: -1px;
         z-index: 1000;
         .nav-link {
-
+            color: lighten($color-text, 20%);
+            &:hover {
+                color: $color-text;
+            }
         }
         .nav-link.active {
             background-color: $color-bg-shade;
+            color: $color-text;
             border-color: lighten($color-text, 80%);
-            border-bottom-style: none;
-           
+            border-bottom-style: none; 
         }
     }
     &__content {
@@ -26,5 +29,8 @@
         border-radius: 5px;
         border-top-left-radius: 0;
         background-color: $color-bg-shade;
+        &>.tab-pane { // In media query
+            display: block;
+        }
     }
 }
