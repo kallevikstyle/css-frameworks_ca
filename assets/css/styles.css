@@ -138,6 +138,21 @@ main, article, header, nav, section, aside, footer {
   background-color: #EFEFEF;
 }
 
-.featured-tabs__content > .tab-pane {
-  display: block;
+.featured-tabs__tab-label {
+  color: #E82569;
+}
+
+@media screen and (max-width: 767px) {
+  .featured-tabs {
+    margin-top: 0;
+  }
+  .featured-tabs__content {
+    background-color: #FFF;
+    padding: 0;
+    border: none;
+  }
+  .featured-tabs__content > .tab-pane {
+    margin-top: 25px;
+    display: block;
+  }
 }

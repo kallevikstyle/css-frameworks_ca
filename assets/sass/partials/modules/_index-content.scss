@@ -29,8 +29,26 @@
         border-radius: 5px;
         border-top-left-radius: 0;
         background-color: $color-bg-shade;
-        &>.tab-pane { // In media query
-            display: block;
-        }
     }
+    &__tab-label {
+        color: $color-highlight;
+    }
+}
+
+// Media queries
+// Show all tab content on small devices and lower
+@media #{$mq-small} {
+    .featured-tabs {
+        margin-top: 0;
+        &__content {
+            background-color: $color-bg;
+            padding: 0;
+            border: none;
+
+            &>.tab-pane {
+                margin-top: $section-spacing / 2;
+                display: block;
+            }
+        }
+    }       
 }
