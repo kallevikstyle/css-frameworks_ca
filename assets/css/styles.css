@@ -108,6 +108,25 @@ a:hover {
   margin-right: 0;
 }
 
+.main-carousel__image {
+  max-width: 1400px;
+  height: 400px;
+  background-repeat: no-repeat;
+  left: 40px;
+}
+
+.main-carousel__image--1 {
+  background-image: url("../images/carousel/carousel-1.jpg");
+}
+
+.main-carousel__image--2 {
+  background-image: url("../images/carousel/carousel-2.jpg");
+}
+
+.main-carousel__image--3 {
+  background-image: url("../images/carousel/carousel-3.jpg");
+}
+
 .introduction {
   margin-top: 50px;
 }

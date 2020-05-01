@@ -1,3 +1,4 @@
+
 .main-carousel {
     padding: 0;
     &__indicators {
@@ -9,6 +10,22 @@
             &:last-child {
                 margin-right: 0;
             }
+        }
+    }
+    &__image {
+            max-width: 1400px;
+            height: 400px;
+            background-repeat: no-repeat;
+            left: 40px;
+            
+        &--1 {
+            background-image: url('../images/carousel/carousel-1.jpg');
+        }
+        &--2 {
+            background-image: url('../images/carousel/carousel-2.jpg');
+        }
+        &--3 {
+            background-image: url('../images/carousel/carousel-3.jpg');
         }
     }
 }
