@@ -1,0 +1,22 @@
+.news-section {
+    margin-top: $section-spacing;
+    &__column {
+        padding-left: 7.5px;
+        padding-right: 7.5px;
+    }
+    .card {
+        margin-top: $section-spacing / 2;
+        &__image {
+
+        }
+        &__title {
+
+        }
+        &__text {
+
+        }
+        &__button {
+
+        }
+    }
+}

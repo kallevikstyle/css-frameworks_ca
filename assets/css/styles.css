@@ -212,3 +212,16 @@ a:hover {
 .page-footer__copyright p {
   display: inline-block;
 }
+
+.news-section {
+  margin-top: 50px;
+}
+
+.news-section__column {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+}
+
+.news-section .card {
+  margin-top: 25px;
+}
