@@ -23,6 +23,7 @@ h3 {
 
 .btn {
   font-size: 13px;
+  font-weight: 300;
 }
 
 main, article, header, nav, section, aside, footer {
@@ -223,5 +224,20 @@ a:hover {
 }
 
 .news-section .card {
+  max-width: 520px;
   margin-top: 25px;
+  border-color: #cccccc;
+}
+
+.news-section .card__image {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.news-section .card__text {
+  color: #666666;
+}
+
+.news-section .card__button {
+  width: 50%;
 }
