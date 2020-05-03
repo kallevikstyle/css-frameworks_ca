@@ -48,6 +48,30 @@ a:hover {
   color: #E82569;
 }
 
+.card {
+  max-width: 520px;
+  margin-top: 25px;
+  border-color: #cccccc;
+}
+
+.card__image {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.card__text {
+  color: #666666;
+}
+
+.card__button {
+  width: 50%;
+}
+
+form .form-control {
+  border: none;
+  margin-bottom: 1.8rem;
+}
+
 .page-header {
   background-color: #EFEFEF;
 }
@@ -223,21 +247,17 @@ a:hover {
   padding-right: 7.5px;
 }
 
-.news-section .card {
-  max-width: 520px;
-  margin-top: 25px;
-  border-color: #cccccc;
+.contact-section {
+  margin-top: 50px;
 }
 
-.news-section .card__image {
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+.contact-section__form {
+  margin-top: 16.6666666667px;
+  background-color: #EFEFEF;
+  padding: 2rem;
 }
 
-.news-section .card__text {
-  color: #666666;
-}
-
-.news-section .card__button {
-  width: 50%;
+.contact-section__submit {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }

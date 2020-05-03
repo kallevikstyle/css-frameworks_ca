@@ -4,19 +4,4 @@
         padding-left: 7.5px;
         padding-right: 7.5px;
     }
-    .card {
-        max-width: 520px;
-        margin-top: $section-spacing / 2;
-        border-color: $color-borders;
-        &__image {
-            border-top-left-radius: 0;
-            border-top-right-radius: 0;
-        }
-        &__text {
-            color: lighten($color-text, 40%);
-        }
-        &__button {
-            width: 50%;
-        }
-    }
 }

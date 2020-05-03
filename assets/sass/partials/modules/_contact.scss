@@ -1,0 +1,12 @@
+.contact-section {
+    margin-top: $section-spacing;
+    &__form {
+        margin-top: $section-spacing / 3;
+        background-color: $color-bg-shade;
+        padding: 2rem;
+    }
+    &__submit {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+}
