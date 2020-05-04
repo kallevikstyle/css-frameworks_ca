@@ -82,6 +82,11 @@ form .form-control {
   margin-bottom: 1.8rem;
 }
 
+.shadow {
+  z-index: 10;
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2) !important;
+}
+
 .page-header {
   background-color: #EFEFEF;
 }
@@ -120,6 +125,13 @@ form .form-control {
 .page-header__nav .navbar-nav .nav-link.active {
   background-color: #FFF;
   border-bottom: 1px solid #000;
+}
+
+@media screen and (max-width: 767px) {
+  .page-header__nav .navbar-nav .nav-link.active {
+    border: none;
+    box-shadow: 0 0.1rem 0.2rem rgba(0, 0, 0, 0.1);
+  }
 }
 
 .page-header__nav .navbar-toggler {
@@ -175,7 +187,8 @@ form .form-control {
 
 .featured-tabs {
   margin-top: 50px;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .featured-tabs__tabs {
@@ -220,6 +233,7 @@ form .form-control {
     background-color: #FFF;
     padding: 0;
     border: none;
+    box-shadow: none !important;
   }
   .featured-tabs__content > .tab-pane {
     margin-top: 25px;
@@ -228,7 +242,6 @@ form .form-control {
 }
 
 .page-footer {
-  margin-top: 50px;
   margin-top: auto;
   background-color: #EFEFEF;
   font-size: 13px;

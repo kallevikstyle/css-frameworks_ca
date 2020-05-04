@@ -3,8 +3,7 @@
     padding: 0;
     &__indicators {
         & > li {
-            width: 25px;
-            height: 25px;
+            @include create-square(25px);
             border-radius: 50%;
             margin-right: 8px;
             &:last-child {

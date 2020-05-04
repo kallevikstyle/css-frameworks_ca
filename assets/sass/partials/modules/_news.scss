@@ -1,7 +1,7 @@
 .news-section {
     margin-top: $section-spacing;
     &__column {
-        padding-left: 7.5px;
-        padding-right: 7.5px;
+        @include padding-left-right(7.5px);
     }
+    // News cards styling is found in 'layout.scss' partial
 }

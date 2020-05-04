@@ -1,0 +1,8 @@
+@mixin create-square($width) {
+    width: $width;
+    height: $width;
+}
+@mixin padding-left-right($padding) {
+    padding-left: $padding;
+    padding-right: $padding;
+}

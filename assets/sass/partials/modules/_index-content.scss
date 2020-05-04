@@ -4,7 +4,7 @@
 
 .featured-tabs {
     margin-top: $section-spacing;
-    padding: 0 15px;
+    @include padding-left-right(15px);
     &__tabs {
         border-color: $color-borders;
         border-bottom-style: none;
@@ -44,6 +44,7 @@
             background-color: $color-bg;
             padding: 0;
             border: none;
+            box-shadow: none !important;
 
             &>.tab-pane {
                 margin-top: $section-spacing / 2;
