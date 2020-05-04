@@ -30,6 +30,10 @@ main, article, header, nav, section, aside, footer {
   display: block;
 }
 
+body {
+  min-height: 100vh;
+}
+
 .btn-primary {
   background-color: #E82569;
   border-color: #E82569;
@@ -247,17 +251,35 @@ form .form-control {
   padding-right: 7.5px;
 }
 
-.contact-section {
+.contact {
   margin-top: 50px;
 }
 
-.contact-section__form {
+.contact__form {
   margin-top: 16.6666666667px;
   background-color: #EFEFEF;
+  border-radius: 5px;
   padding: 2rem;
+  padding-bottom: 1rem;
 }
 
-.contact-section__submit {
+.contact__submit {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
+}
+
+.services {
+  margin-top: 25px;
+}
+
+.services__list {
+  margin-top: 25px;
+}
+
+.services__list-item {
+  background-color: #fcfcfc;
+}
+
+.services__list-item:hover {
+  background-color: #EFEFEF;
 }

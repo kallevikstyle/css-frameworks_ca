@@ -54,13 +54,13 @@
     <!-- Main content -->
     <main class="container" role="main">
         <!-- Contact section -->
-        <section class="contact-section row">
+        <section class="contact row">
             <div class="col-12">
                 <h1>Contact</h1>
             </div>          
             <!-- Contact form -->
-            <div class="contact-section__form col-12 col-md-6">
-                <form>
+            <div class="col-12 col-md-6 px-0 px-md-3">
+                <form class="contact__form mx-lg-2">
                     <div class="form-group">
                         <label for="name" class="sr-only">Name</label>
                         <input type="text" class="form-control" id="name" placeholder="Name">
@@ -78,13 +78,24 @@
                         <textarea class="form-control" id="message" placeholder="Message" rows="8"></textarea>
                     </div>
                     <div class="form-group">
-                        <button type="submit" class="contact-section__submit btn btn-primary float-right">Send</button>
+                        <button type="submit" class="contact__submit btn btn-primary float-right">SEND</button>
+                        <div class="clearfix"></div>
                     </div>
                 </form>
             </div>
             
             <!-- Services -->
-
+          
+            <div class="services col-12 col-md-6">
+                <h2>Services</h2>
+                <ul class="services__list list-group mx-lg-2">
+                    <li class="services__list-item list-group-item">Morbi nunc odio</li>
+                    <li class="services__list-item list-group-item">Lacus euismod auctor</li>
+                    <li class="services__list-item list-group-item">Quisque ultricies nibh quis</li>
+                    <li class="services__list-item list-group-item">Commodo condimentum justo</li>
+                    <li class="services__list-item list-group-item">Sagittis tellus enim nec lectus</li>
+                </ul>
+            </div>
         </section>
     </main>
 

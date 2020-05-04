@@ -1,12 +1,28 @@
-.contact-section {
+.contact {
     margin-top: $section-spacing;
     &__form {
         margin-top: $section-spacing / 3;
         background-color: $color-bg-shade;
+        border-radius: 5px;
         padding: 2rem;
+        padding-bottom: 1rem;
     }
     &__submit {
         padding-left: 2.5rem;
         padding-right: 2.5rem;
+        
+    }
+}
+.services {
+    margin-top: $section-spacing / 2;
+    &__list {
+        margin-top: $section-spacing / 2;
+    }
+    &__list-item {
+        background-color: lighten($color-bg-shade, 5%);
+        &:hover {
+            background-color: $color-bg-shade;
+        }
+    
     }
 }

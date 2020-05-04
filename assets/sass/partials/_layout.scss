@@ -1,7 +1,9 @@
 main, article, header, nav, section, aside, footer {
 	display: block;
 }
-
+body {
+	min-height: 100vh;
+}
 // Buttons and links
 .btn-primary {
 	background-color: $color-highlight;
