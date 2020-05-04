@@ -150,6 +150,13 @@ form .form-control {
   background-position: center top;
 }
 
+@media screen and (max-width: 767px) {
+  .main-carousel__image {
+    height: 200px;
+    background-size: cover;
+  }
+}
+
 .main-carousel__image--1 {
   background-image: url("../images/carousel/carousel-1.jpg");
 }
