@@ -32,6 +32,12 @@ main, article, header, nav, section, aside, footer {
 
 body {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  margin-bottom: 50px;
 }
 
 .btn-primary {
@@ -216,6 +222,7 @@ form .form-control {
 
 .page-footer {
   margin-top: 50px;
+  margin-top: auto;
   background-color: #EFEFEF;
   font-size: 13px;
 }

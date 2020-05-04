@@ -3,6 +3,11 @@ main, article, header, nav, section, aside, footer {
 }
 body {
 	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+main {
+	margin-bottom: $section-spacing;
 }
 // Buttons and links
 .btn-primary {
