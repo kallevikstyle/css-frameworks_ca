@@ -1,7 +1,27 @@
 .introduction {
     margin-top: $section-spacing;
 }
-
+.main-carousel {
+    padding: 0;
+    .carousel {
+        &__image {
+            width: 100%;
+            height: 400px;
+            &--1 {
+                background-image: url('../images/carousel/carousel-1.jpg');
+            }
+            &--2 {
+                background-image: url('../images/carousel/carousel-2.jpg');
+            }
+            &--3 {
+                background-image: url('../images/carousel/carousel-3.jpg');
+            }
+            @media #{$mq-small} {
+                height: 200px;
+            }
+        }
+    }
+}
 .featured-tabs {
     margin-top: $section-spacing;
     @include padding-left-right(15px);

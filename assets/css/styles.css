@@ -140,49 +140,57 @@ form .form-control {
   font-size: 1.8rem;
 }
 
-.main-carousel {
-  padding: 0;
-}
-
-.main-carousel__indicators > li {
+.carousel__indicators > li {
   width: 25px;
   height: 25px;
   border-radius: 50%;
   margin-right: 8px;
 }
 
-.main-carousel__indicators > li:last-child {
+.carousel__indicators > li:last-child {
   margin-right: 0;
 }
 
-.main-carousel__image {
-  width: 100%;
-  height: 400px;
+.carousel__image {
   background-repeat: no-repeat;
   background-position: center top;
 }
 
 @media screen and (max-width: 767px) {
-  .main-carousel__image {
-    height: 200px;
+  .carousel__image {
     background-size: cover;
   }
 }
 
-.main-carousel__image--1 {
+.introduction {
+  margin-top: 50px;
+}
+
+.main-carousel {
+  padding: 0;
+}
+
+.main-carousel .carousel__image {
+  width: 100%;
+  height: 400px;
+}
+
+.main-carousel .carousel__image--1 {
   background-image: url("../images/carousel/carousel-1.jpg");
 }
 
-.main-carousel__image--2 {
+.main-carousel .carousel__image--2 {
   background-image: url("../images/carousel/carousel-2.jpg");
 }
 
-.main-carousel__image--3 {
+.main-carousel .carousel__image--3 {
   background-image: url("../images/carousel/carousel-3.jpg");
 }
 
-.introduction {
-  margin-top: 50px;
+@media screen and (max-width: 767px) {
+  .main-carousel .carousel__image {
+    height: 200px;
+  }
 }
 
 .featured-tabs {

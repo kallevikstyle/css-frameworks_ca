@@ -1,6 +1,4 @@
-
-.main-carousel {
-    padding: 0;
+.carousel {
     &__indicators {
         & > li {
             @include create-square(25px);
@@ -12,24 +10,10 @@
         }
     }
     &__image {
-        width: 100%;
-        height: 400px;
         background-repeat: no-repeat;
         background-position: center top;
         @media #{$mq-small} { 
-            height: 200px;
             background-size: cover;
         }   
-            
-        &--1 {
-            background-image: url('../images/carousel/carousel-1.jpg');
-        }
-        &--2 {
-            background-image: url('../images/carousel/carousel-2.jpg');
-        }
-        &--3 {
-            background-image: url('../images/carousel/carousel-3.jpg');
-        }
     }
-    
 }
