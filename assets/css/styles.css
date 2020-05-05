@@ -87,6 +87,28 @@ form .form-control {
   box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2) !important;
 }
 
+.carousel__indicators > li {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.carousel__indicators > li:last-child {
+  margin-right: 0;
+}
+
+.carousel__image {
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+@media screen and (max-width: 767px) {
+  .carousel__image {
+    background-size: cover;
+  }
+}
+
 .page-header {
   background-color: #EFEFEF;
 }
@@ -138,28 +160,6 @@ form .form-control {
   color: #969696;
   border: none;
   font-size: 1.8rem;
-}
-
-.carousel__indicators > li {
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  margin-right: 8px;
-}
-
-.carousel__indicators > li:last-child {
-  margin-right: 0;
-}
-
-.carousel__image {
-  background-repeat: no-repeat;
-  background-position: center top;
-}
-
-@media screen and (max-width: 767px) {
-  .carousel__image {
-    background-size: cover;
-  }
 }
 
 .introduction {
